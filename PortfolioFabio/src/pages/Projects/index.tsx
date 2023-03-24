@@ -1,5 +1,5 @@
 import Header from "../../components/Header"
-import { Card, ContainerProjects, LinkOfTheProject, List, TitleAndSpan, TypeSection } from "./style"
+import { Card, ContainerProjects, LinkOfTheProject, LinkToTheProject, List, TitleAndSpan, TypeSection } from "./style"
 import { BsArrowUpLeftCircleFill } from 'react-icons/bs'
 import projects from '../../mock'
 
@@ -25,6 +25,7 @@ const Projects = () => {
             </TypeSection>
             <LinkOfTheProject>
               <BsArrowUpLeftCircleFill />
+              <LinkToTheProject to={project.link} target="_blank">Link: {project.link}</LinkToTheProject>
             </LinkOfTheProject>
           </Card>
         ))}

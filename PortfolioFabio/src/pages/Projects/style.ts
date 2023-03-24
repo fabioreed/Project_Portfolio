@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import styled from "styled-components"
 
 export const ContainerProjects = styled.main`
@@ -100,6 +101,10 @@ export const Card = styled.li`
     line-height: 150%;
   }
 
+  :hover {
+    background-color: #f2f2f2;
+  }
+
   @media (min-width: 769px) {
     width: 300px;
 
@@ -126,6 +131,9 @@ export const TypeSection = styled.div`
 `
 
 export const LinkOfTheProject = styled.div`
+  display: flex;
+  align-items: center;
+  gap: .7rem;
   cursor: pointer;
 
   color: var(--primary-color);
@@ -138,4 +146,10 @@ export const LinkOfTheProject = styled.div`
   @media (min-width: 769px) {
     font-size: 1.7rem;
   }
+`
+
+export const LinkToTheProject = styled(Link)`
+    font-size: .7rem;
+    color: var(--gray);
+    line-height: 150%;
 `

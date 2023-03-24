@@ -5,14 +5,14 @@ export const MainContainerHome = styled.main`
 
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  /* gap: 2rem; */
 `
 
 export const SectionnContainerHome = styled.section`
   div {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.2rem;
 
     h1 {
       font-size: 1.3rem;
@@ -42,11 +42,11 @@ export const SectionnContainerHome = styled.section`
       width: 50%;
 
       h1 {
-        font-size: 2.6rem;
+        font-size: 2.4rem;
       }
 
       span {
-        font-size: 3rem;
+        font-size: 2.8rem;
       }
 
       p {
@@ -60,7 +60,6 @@ export const TechnologiesContainer = styled.article`
   display: flex;
   gap: .7rem;
 
-  
   div {
     color: var(--gray);
     font-size: 1.4rem;
@@ -81,33 +80,60 @@ export const TechnologiesContainer = styled.article`
 
 export const ResumeContainer = styled.aside`
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
 
-  button {
-    display: flex;
-    align-items: center;
-    gap: .4rem;
-
-    padding: .9rem .7rem;
-
-    background-color: var(--primary-color);
-
-    color: var(--white);
-
-    transition: .4s ease;
-
-    :hover {
-      background-color: var(--yellow);
-      color: var(--black);
-    }
-  }
-
   @media (min-width: 769px) {
-    button {
-      padding: .8rem 1.1rem;
+    div {
+      flex-direction: column;
+      gap: 1rem;
+      justify-content: flex-start;
+      
+      a:nth-child(1) {
+        padding: .8rem 1.1rem;
+      }
     }
   }
+`
+
+export const PDFContainer = styled.div`
+    a:nth-child(1) {
+      display: flex;
+      align-items: center;
+      gap: .4rem;
+  
+      padding: .9rem .7rem;
+      width: max-content;
+  
+      background-color: var(--primary-color);
+  
+      border-radius: 8px 2px;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 600;
+  
+      color: var(--white);
+  
+      transition: .4s ease;
+  
+      :hover {
+        background-color: var(--yellow);
+        color: var(--black);
+      }
+    }
+
+    a:nth-child(2) {
+      border-bottom: 1.2px solid var(--gray);
+
+      width: max-content;
+
+      color: var(--gray);
+      font-weight: 600;
+      font-size: .8rem;
+
+      :hover {
+        color: var(--yellow);
+      }
+    }
 `
 
 export const PictureHome = styled.section`
