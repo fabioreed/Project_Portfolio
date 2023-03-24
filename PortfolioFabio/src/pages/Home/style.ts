@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import styled from "styled-components"
 
 export const MainContainerHome = styled.main`
@@ -5,7 +6,11 @@ export const MainContainerHome = styled.main`
 
   display: flex;
   flex-direction: column;
-  /* gap: 2rem; */
+  gap: 2rem;
+
+  @media (min-width: 769px) {
+    gap: 0;
+  }
 `
 
 export const SectionnContainerHome = styled.section`
@@ -80,10 +85,15 @@ export const TechnologiesContainer = styled.article`
 
 export const ResumeContainer = styled.aside`
   display: flex;
-  /* align-items: center; */
-  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
 
   @media (min-width: 769px) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    
     div {
       flex-direction: column;
       gap: 1rem;
@@ -132,6 +142,8 @@ export const PDFContainer = styled.div`
 
       :hover {
         color: var(--yellow);
+
+        border-bottom: 1.2px solid var(--yellow);
       }
     }
 `
@@ -150,5 +162,20 @@ export const PictureHome = styled.section`
 
       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     }
+  }
+`
+
+export const SocialMediaContainer = styled.aside`
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+`
+
+export const MediaSocial = styled(Link)`
+  font-size: 1.7rem;
+  color: var(--gray);
+
+  :hover {
+    color: var(--primary-color);
   }
 `

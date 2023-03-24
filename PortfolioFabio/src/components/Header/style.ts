@@ -21,8 +21,10 @@ export const HeaderContainer = styled.header`
     display: none;
   }
 
-  button {
+  .buttonContact {
     padding: .4rem 1rem;
+
+    display: none;
 
     background-color: var(--black);
 
@@ -44,10 +46,12 @@ export const HeaderContainer = styled.header`
       display: flex;
       gap: 1rem;
     }
-
-    button {
+    
+    .buttonContact {
       padding: .7rem 2rem;
-    }
+
+      display: block;
+  }
 }
 `
 
@@ -67,4 +71,26 @@ export const LinkTag = styled(Link)`
       
       transform: scaleX(-10px, -10px);
     }
+`
+
+export const Burger = styled.aside`
+  display: flex; 
+
+  .buttonBurger {
+    font-size: 1.7rem;
+  
+    cursor: pointer;
+
+    background-color: transparent;
+
+    color: var(--black);
+
+    @media (min-width: 769px) {
+        display: none;
+    }
+  }
+
+  @media (min-width: 769px) {
+    display: none;
+  }
 `

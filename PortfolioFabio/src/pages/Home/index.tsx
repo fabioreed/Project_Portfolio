@@ -1,12 +1,15 @@
-import { MainContainerHome, PDFContainer, PictureHome, ResumeContainer, SectionnContainerHome, TechnologiesContainer } from './style'
+import { MainContainerHome, MediaSocial, PDFContainer, PictureHome, ResumeContainer, SectionnContainerHome, SocialMediaContainer, TechnologiesContainer } from './style'
 import { FaReact, FaNodeJs } from 'react-icons/fa'
 import { SiTypescript, SiJavascript } from 'react-icons/si'
 import { DiCss3 } from 'react-icons/di'
 import { BsCloudArrowDownFill } from 'react-icons/bs'
+import { GoMarkGithub } from 'react-icons/go'
+import { FaLinkedin } from 'react-icons/fa'
 import Me from '../../assets/Me.jpeg'
 import Header from '../../components/Header'
 import CurriculoEn from '../../assets/Fabio Silva Resume Developer En.pdf'
 import CurriculoPt from '../../assets/Fabio Luiz - Curriculo Developer.pdf'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -42,6 +45,10 @@ const Home = () => {
         </div>
         <PictureHome>
           <img src={Me} />
+          <SocialMediaContainer>
+            <MediaSocial to='https://www.linkedin.com/in/fabioreed/'><FaLinkedin /></MediaSocial>
+            <MediaSocial to='https://github.com/fabioreed'><GoMarkGithub /></MediaSocial>
+          </SocialMediaContainer>
         </PictureHome>
       </SectionnContainerHome>
     </MainContainerHome>
