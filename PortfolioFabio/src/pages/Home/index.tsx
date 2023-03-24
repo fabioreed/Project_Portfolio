@@ -9,7 +9,6 @@ import Me from '../../assets/Me.jpeg'
 import Header from '../../components/Header'
 import CurriculoEn from '../../assets/Fabio Silva Resume Developer En.pdf'
 import CurriculoPt from '../../assets/Fabio Luiz - Curriculo Developer.pdf'
-import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
