@@ -24,6 +24,10 @@ export const TitleAndSpan = styled.div`
   p {
     color: var(--gray);
     font-size: .8rem;
+
+    display: flex;
+    align-items: center;
+    gap: .4rem;
   }
 
   @media (min-width: 769px) {

@@ -2,6 +2,7 @@ import Header from "../../components/Header"
 import { Card, ContainerProjects, LinkOfTheProject, LinkToTheProject, List, TitleAndSpan, TypeSection } from "./style"
 import { BsArrowUpLeftCircleFill } from 'react-icons/bs'
 import projects from '../../mock'
+import { CiCoffeeCup } from 'react-icons/ci'
 
 const Projects = () => {
 
@@ -10,7 +11,7 @@ const Projects = () => {
       <Header />
       <TitleAndSpan>
         <h2>Personal Projects</h2>
-        <p>Made with love, coffee ...and <span>code.</span></p>
+        <p>Made with love, coffee ...and <span> code.</span><CiCoffeeCup /></p>
       </TitleAndSpan>
       <List>
         {projects.map((project) => (
