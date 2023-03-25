@@ -7,8 +7,8 @@ import { GoMarkGithub } from 'react-icons/go'
 import { FaLinkedin } from 'react-icons/fa'
 import Me from '../../assets/Me.jpeg'
 import Header from '../../components/Header'
-import CurriculoEn from '../../assets/Fabio Silva Resume Developer En.pdf'
-import CurriculoPt from '../../assets/Fabio Luiz - Curriculo Developer.pdf'
+import CurriculoEn from '../../assets/Fabio Resume En Frontend.pdf'
+import CurriculoPt from '../../assets/Fabio Luiz - Curriculo.docx.pdf'
 
 const Home = () => {
   return (
