@@ -42,6 +42,12 @@ export const HeaderContainer = styled.header`
   @media (min-width: 769px) {
     padding: 1.7rem 8rem;
 
+    div {
+      h3 {
+        font-size: 1.3rem;
+      }
+    }
+
     ul {
       display: flex;
       gap: 1rem;

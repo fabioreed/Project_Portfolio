@@ -3,9 +3,10 @@ import { Burger, HeaderContainer, LinkTag } from './style'
 import { FiMenu } from 'react-icons/fi'
 import Modal from '../Modal'
 import { UserContext } from '../../providers/UserContext'
+import ContactModal from '../ContactModal'
 
 const Header = () => {
-  const { modal, setModal } = useContext(UserContext)
+  const { modal, setModal, contact, setContact } = useContext(UserContext)
 
   return (
     <HeaderContainer>
@@ -19,7 +20,7 @@ const Header = () => {
           <li><LinkTag to='/projects'>Projects</LinkTag></li>
           <li><LinkTag to='/about'>About Me</LinkTag></li>
         </ul>
-      <button className='buttonContact'>Contact</button>
+      <button className='buttonContact' onClick={() => setContact(!contact)}>Contact</button>
       <Burger>
         <button className='buttonBurger' onClick={() => setModal(!modal)}>
           <FiMenu />
@@ -27,6 +28,7 @@ const Header = () => {
       </Burger>
 
       { modal && <Modal /> }
+      { contact && <ContactModal /> }
     </HeaderContainer>
   )
 }

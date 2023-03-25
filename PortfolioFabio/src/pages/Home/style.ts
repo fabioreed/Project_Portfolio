@@ -132,6 +132,10 @@ export const PDFContainer = styled.div`
     }
 
     a:nth-child(2) {
+      display: flex;
+      align-items: center;
+      gap: .4rem;
+
       border-bottom: 1.2px solid var(--gray);
 
       width: max-content;
@@ -139,6 +143,8 @@ export const PDFContainer = styled.div`
       color: var(--gray);
       font-weight: 600;
       font-size: .8rem;
+
+      transition: .4s ease;
 
       :hover {
         color: var(--yellow);
@@ -161,6 +167,7 @@ export const PictureHome = styled.section`
       border-radius: 50%;
 
       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
     }
   }
 `

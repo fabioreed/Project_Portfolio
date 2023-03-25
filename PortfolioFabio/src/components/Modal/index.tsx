@@ -29,7 +29,7 @@ const Modal = () => {
         <ul>
           <TagLink to='/'>Home <HiOutlineHome /></TagLink>
           <TagLink to='/projects'>Projects<AiOutlineFundProjectionScreen /></TagLink>
-          <TagLink to='/aboutme'>About Me<FaMapSigns /></TagLink>
+          <TagLink to='/about'>About Me<FaMapSigns /></TagLink>
         </ul>
       </ModalItSelf>
     </ModalContainer>

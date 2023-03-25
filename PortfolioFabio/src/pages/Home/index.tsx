@@ -21,7 +21,7 @@ const Home = () => {
           <ResumeContainer>
             <PDFContainer>
               <a href={CurriculoEn} download>English CV<BsCloudArrowDownFill /></a>
-              <a href={CurriculoPt} download>Currículo em português</a>
+              <a href={CurriculoPt} download>Currículo em português<BsCloudArrowDownFill /></a>
             </PDFContainer>
             <TechnologiesContainer>
               <div>
@@ -45,8 +45,8 @@ const Home = () => {
         <PictureHome>
           <img src={Me} />
           <SocialMediaContainer>
-            <MediaSocial to='https://www.linkedin.com/in/fabioreed/'><FaLinkedin /></MediaSocial>
-            <MediaSocial to='https://github.com/fabioreed'><GoMarkGithub /></MediaSocial>
+            <MediaSocial to='https://www.linkedin.com/in/fabioreed/' target="_blank"><FaLinkedin /></MediaSocial>
+            <MediaSocial to='https://github.com/fabioreed' target="_blank"><GoMarkGithub /></MediaSocial>
           </SocialMediaContainer>
         </PictureHome>
       </SectionnContainerHome>
