@@ -20,6 +20,10 @@ const Modal = () => {
     }
   }, [setModal])
 
+  const handleCloseModal = () => {
+    setModal(false)
+  }
+
   return (
     <ModalContainer>
       <ModalItSelf>
@@ -27,9 +31,9 @@ const Modal = () => {
           <span onClick={() => setModal(!modal)}>X</span>
         </div>
         <ul>
-          <TagLink to='/'>Home <HiOutlineHome /></TagLink>
-          <TagLink to='/projects'>Projects<AiOutlineFundProjectionScreen /></TagLink>
-          <TagLink to='/about'>About Me<FaMapSigns /></TagLink>
+          <TagLink to='/' onClick={handleCloseModal}>Home <HiOutlineHome /></TagLink>
+          <TagLink to='/projects' onClick={handleCloseModal}>Projects<AiOutlineFundProjectionScreen /></TagLink>
+          <TagLink to='/about' onClick={handleCloseModal}>About Me<FaMapSigns /></TagLink>
         </ul>
       </ModalItSelf>
     </ModalContainer>
