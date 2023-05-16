@@ -161,10 +161,12 @@ export const PictureHome = styled.section`
     display: block;
 
     img {
-      width: 200px;
+      width: 300px;
 
-      border: 4px solid var(--white);
+      border: 3px solid var(--white);
       border-radius: 50%;
+
+      opacity: 84%;
 
       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
       /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */

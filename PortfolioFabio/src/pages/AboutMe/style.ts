@@ -183,5 +183,8 @@ export const Icons = styled.div`
 
   @media (min-width: 769px) {
     font-size: 3.4rem;
+    flex-wrap: wrap;
+
+    width: 450px;
   }
 `

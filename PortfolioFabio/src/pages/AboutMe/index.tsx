@@ -2,9 +2,8 @@ import Header from "../../components/Header"
 import { AsideCard, ContainerAboutMe, FigureContainer, Icons, MyTechnologies, SayHello } from "./style"
 import Me from '../../assets/Meme.jpg'
 import { FaReact, FaNodeJs } from 'react-icons/fa'
-import { SiTypescript, SiCsswizardry, SiJavascript, SiStyledcomponents, SiMui } from 'react-icons/si'
-import { BsArrowRight } from 'react-icons/bs'
-import { Link } from "react-router-dom"
+import { SiTypescript, SiCsswizardry, SiJavascript, SiStyledcomponents, SiMui, SiRedux } from 'react-icons/si'
+import { BsArrowRight, BsGit } from 'react-icons/bs'
 
 const AboutMe = () => {
   return (
@@ -30,6 +29,8 @@ const AboutMe = () => {
               <SiStyledcomponents />
               <SiCsswizardry />
               <SiMui />
+              <BsGit />
+              <SiRedux/>
             </Icons>
           </MyTechnologies>
         </AsideCard>
