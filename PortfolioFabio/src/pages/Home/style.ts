@@ -20,7 +20,7 @@ export const SectionnContainerHome = styled.section`
     gap: 1.2rem;
 
     h1 {
-      font-size: 1.3rem;
+      font-size: 2.1rem;
       color: var(--black);
 
       span {
@@ -31,7 +31,7 @@ export const SectionnContainerHome = styled.section`
     
     p {
       color: var(--gray);
-      font-size: .8rem;
+      font-size: 1.2rem;
     }
   }
 
