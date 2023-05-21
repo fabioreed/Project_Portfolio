@@ -124,13 +124,24 @@ export const TypeSection = styled.div`
   gap: .4rem;
 
   span {
-    border-radius: 6px;
+    border-radius: 5px;
     padding: .3rem;
 
     font-size: .7rem;
     color: var(--black);
 
     background-color: var(--yellow);
+
+    transition: .4s ease;
+
+    :hover {
+      background-color: var(--primary-color);
+      color: var(--white);
+    }
+
+    @media (min-width: 769px) {
+      font-size: .8rem;
+    }
   }
 `
 
@@ -142,6 +153,8 @@ export const LinkOfTheProject = styled.div`
 
   color: var(--primary-color);
   font-size: 1.2rem;
+
+  transition: .5s ease;
 
   :hover {
     color: var(--gray);

@@ -21,7 +21,7 @@ const ContactModal = () => {
         <h3>WhatsApp:</h3>
         <span>
           <Link to='https://wa.me/5583986391165' target="_blank">
-            +55 83 98639-1165
+            +55 83 98639-1165  - just click here!
           </Link>
         </span>
       </div>

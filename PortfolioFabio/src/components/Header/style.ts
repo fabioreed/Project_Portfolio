@@ -69,13 +69,14 @@ export const LinkTag = styled(Link)`
     list-style: none;
     text-decoration: none;
 
-    transition: .2s;
+    transition: .4s ease;
 
     :hover {
       font-weight: 600;
-      color: var(--primary-color);
-      
-      transform: scaleX(-10px, -10px);
+      font-size: .85rem;
+      color: var(--yellow);
+
+      transform: scaleX(-10px, -20px);
     }
 `
 

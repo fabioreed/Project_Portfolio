@@ -17,8 +17,6 @@ export const ContainerAboutMe = styled.main`
 
     h1 {
       color: var(--black);
-      /* color: var(--primary-color); */
-      /* color: var(--gray); */
     }
 
     p {
@@ -75,6 +73,8 @@ export const ContainerAboutMe = styled.main`
 export const SayHello = styled(Link)`
     color: var(--primary-color);
 
+    transition: .26s ease;
+
     :hover {
       color: var(--yellow);
     }
@@ -111,6 +111,13 @@ export const FigureContainer = styled.figure`
     border-radius: 50%;
 
     border: 2px solid var(--primary-color);
+
+    transition: .4s ease;
+
+    :hover {
+      border: 2px solid var(--yellow);
+      opacity: 87%;
+    }
   }
 
   div {
@@ -140,7 +147,7 @@ export const FigureContainer = styled.figure`
     }
 
     img {
-      border: 3.1px solid var(--primary-color);
+      border: 2.1px solid var(--primary-color);
     }
   }
 `
@@ -182,7 +189,7 @@ export const Icons = styled.div`
   color: var(--gray);
 
   @media (min-width: 769px) {
-    font-size: 3.4rem;
+    font-size: 1.5rem;
     flex-wrap: wrap;
 
     width: 450px;

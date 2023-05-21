@@ -26,7 +26,7 @@ const Projects = () => {
             </TypeSection>
             <LinkOfTheProject>
               <BsArrowUpLeftCircleFill />
-              <LinkToTheProject to={project.link} target="_blank">Link: {project.link}</LinkToTheProject>
+              <LinkToTheProject to={project.link} target="_blank"><b>Visit project:</b> {project.link}</LinkToTheProject>
             </LinkOfTheProject>
           </Card>
         ))}

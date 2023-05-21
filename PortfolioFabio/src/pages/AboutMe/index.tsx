@@ -1,9 +1,10 @@
 import Header from "../../components/Header"
 import { AsideCard, ContainerAboutMe, FigureContainer, Icons, MyTechnologies, SayHello } from "./style"
 import Me from '../../assets/Meme.jpg'
-import { FaReact, FaNodeJs } from 'react-icons/fa'
-import { SiTypescript, SiCsswizardry, SiJavascript, SiStyledcomponents, SiMui, SiRedux } from 'react-icons/si'
+import { FaReact, FaNodeJs, FaPython } from 'react-icons/fa'
+import { SiTypescript, SiCsswizardry, SiJavascript, SiStyledcomponents, SiMui, SiRedux, SiExpress, SiPostgresql } from 'react-icons/si'
 import { BsArrowRight, BsGit } from 'react-icons/bs'
+import { DiDjango } from "react-icons/di"
 
 const AboutMe = () => {
   return (
@@ -24,13 +25,17 @@ const AboutMe = () => {
             <Icons>
               <FaReact />
               <SiTypescript />
-              <FaNodeJs />
               <SiJavascript />
               <SiStyledcomponents />
               <SiCsswizardry />
               <SiMui />
+              <SiRedux />
               <BsGit />
-              <SiRedux/>
+              <FaNodeJs />
+              <SiPostgresql />
+              <FaPython />
+              <SiExpress />
+              <DiDjango />
             </Icons>
           </MyTechnologies>
         </AsideCard>
