@@ -45,7 +45,7 @@ export const ContainerAboutMe = styled.main`
     }
   }
 
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     footer {
     padding: 3rem 7.8rem;
 
@@ -94,7 +94,7 @@ export const AsideCard = styled.aside`
 
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     gap: 2.7rem;
   }
 `
@@ -137,7 +137,7 @@ export const FigureContainer = styled.figure`
     }
   }
 
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     div > h3 {
       font-size: 1.1rem;
     }
@@ -171,7 +171,7 @@ export const MyTechnologies = styled.div`
     gap: 1rem;
   }
 
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     gap: 2.3rem;
 
     h2 {
@@ -188,7 +188,7 @@ export const Icons = styled.div`
 
   color: var(--gray);
 
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     font-size: 1.5rem;
     flex-wrap: wrap;
 

@@ -8,7 +8,7 @@ export const MainContainerHome = styled.main`
   flex-direction: column;
   gap: 2rem;
 
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     gap: 0;
   }
 `
@@ -35,7 +35,7 @@ export const SectionnContainerHome = styled.section`
     }
   }
 
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -76,7 +76,7 @@ export const TechnologiesContainer = styled.article`
     }
   }
 
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     div {
       font-size: 1.9rem;
     }
@@ -89,7 +89,7 @@ export const ResumeContainer = styled.aside`
   flex-direction: column;
   gap: 2rem;
 
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;

@@ -30,7 +30,7 @@ export const TitleAndSpan = styled.div`
     gap: .4rem;
   }
 
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     h2 {
       font-size: 1.8rem;
     }
@@ -47,7 +47,7 @@ export const List = styled.ul`
   
   overflow-x: auto;
   
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     padding: 1rem 8rem;
     margin: 0 auto;
 
@@ -109,7 +109,7 @@ export const Card = styled.li`
     background-color: #f2f2f2;
   }
 
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     width: 300px;
 
     p {
@@ -139,7 +139,7 @@ export const TypeSection = styled.div`
       color: var(--white);
     }
 
-    @media (min-width: 769px) {
+    @media (min-width: 768px) {
       font-size: .8rem;
     }
   }
@@ -160,7 +160,7 @@ export const LinkOfTheProject = styled.div`
     color: var(--gray);
   }
 
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     font-size: 1.7rem;
   }
 `

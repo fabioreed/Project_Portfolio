@@ -8,6 +8,7 @@ export const HeaderContainer = styled.header`
 
     div {
       h3 {
+        font-size: 3rem;
         font-weight: bold;
       }
 
@@ -39,7 +40,7 @@ export const HeaderContainer = styled.header`
     }
   }
 
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     padding: 1.7rem 8rem;
 
     div {
@@ -92,12 +93,12 @@ export const Burger = styled.aside`
 
     color: var(--black);
 
-    @media (min-width: 769px) {
+    @media (min-width: 768px) {
         display: none;
     }
   }
 
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     display: none;
   }
 `
